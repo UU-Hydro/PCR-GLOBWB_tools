@@ -1,0 +1,15 @@
+name: PCR-GLOBWB_domains
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11 # My desired python version
+  - pip
+  - numpy
+  - numba
+  - pandas
+  - pcraster
+  - rasterio
+  - geopandas
+  - netCDF4
+  - xarray
